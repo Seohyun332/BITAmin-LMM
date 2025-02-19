@@ -1,1 +1,1 @@
-# BITAmin-LLM
+# BITAmin-LMM
