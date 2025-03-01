@@ -122,6 +122,9 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 
 
 #### 상세 사항
+
+![process](./Readme_images/image-8.png)  
+
 - **prompt** 
    - A cute dog wearing yellow hoodie sits on a stylish sofa, gazing around in a warm and cozy living room. Soft lighting fills the space, casting gentle shadows on the plush cushions. The atmosphere feels calm and inviting, with a sense of comfort and warmth. 
 
