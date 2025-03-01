@@ -39,12 +39,12 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 
 ### 🧪 `Experiment`
 
-반려동물 용품 광고를 테마로 실험을 진행하였습니다. 
+반려동물 용품 광고를 테마로 실험을 진행하였습니다.   
 ※ DB로 dog_ad.index 파일 사용 
 
-> ### DB 검색 시 생성 성능 (baseline)
+### ▶ DB 검색 시 생성 성능 (baseline)
 
-▶ 검색 시 full-query를 사용
+> 검색 시 full-query를 사용
 
 
 #### 상세 사항
@@ -55,7 +55,7 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 
 - **weight** : similarity score(keyword)+  [0.2, 0.3](input image)
 
-- **input images**
+- **input images**  
 ![exp1_input](./Readme_images/image-2.png)
 
 #### **Result**
@@ -63,9 +63,9 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 ![exp1_result](./Readme_images/image-3.png)
 
 
-> ### Subquery DB 검색 시 생성 성능 
+### ▶ Subquery DB 검색 시 생성 성능 
 
-▶ 검색 시 LLM 기반 Subquery를 사용
+> 검색 시 LLM 기반 Subquery를 사용
 
 
 #### 상세 사항
@@ -76,7 +76,7 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 
 - **weight** : query_importance(sub-query) +  [0.2, 0.3](input image)
 
-- **input images**
+- **input images**  
 ![exp2_input](./Readme_images/image-2.png)
 
 #### **Result**
@@ -84,10 +84,10 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 ![exp2_result](./Readme_images/image-4.png)
 
 
-> ### input query 복잡도 상승 시 Subquery DB 검색 생성 성능 
+### ▶ input query 복잡도 상승 시 Subquery DB 검색 생성 성능 
 
-▶ 목줄이 아니라 옷으로 Target 변경 + prompt 복잡도 증가
-▶ 검색 시 LLM 기반 Subquery를 사용
+> 목줄이 아니라 옷으로 Target 변경 + prompt 복잡도 증가  
+> 검색 시 LLM 기반 Subquery를 사용
 
 
 
@@ -115,10 +115,10 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 
 ![exp3_result](./Readme_images/image-6.png)
 
-> ### Subquery DB 검색 + 코사인 유사도 필터링 시 생성 성능 
+### ▶ Subquery DB 검색 + 코사인 유사도 필터링 시 생성 성능 
 
-▶ 목줄이 아니라 옷으로 Target 변경 + prompt 복잡도 증가
-▶ LLM 기반 Subquery를 사용 + 코사인 유사도를 통한 필터링 수행 → 요구를 잘 반영하는 검색 결과 백터 생성
+> 목줄이 아니라 옷으로 Target 변경 + prompt 복잡도 증가  
+> LLM 기반 Subquery를 사용 + 코사인 유사도를 통한 필터링 수행 → 요구를 잘 반영하는 검색 결과 백터 생성
 
 
 #### 상세 사항
