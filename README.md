@@ -143,9 +143,9 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 
 ![exp4_result](./Readme_images/image-7.png)
 
-## 🎯 **Effectiveness of the Project**
-- 요구 충족도 : 이용자의 복잡한 의도를 반영한 광고 이미지 생성
-- 이미지 품질 개선 : 생성에 필요한 이미지를 DB로 보충하여 품질 개선
+## 🎯 **Usefulness of the Project**
+- 사용자 요구 충족 : 이용자의 복잡한 의도를 반영한 광고 이미지 생성 가능
+- 이미지 품질 개선 : 생성에 필요한 이미지를 DB로 보충하여 품질 개선 효과 
 
 ## 📂 **Project Information**
 
