@@ -167,7 +167,7 @@ Colab을 활용하여 RDM 컨셉을 구현하기 위해 Prototype 제작을 수�
 
 ### **📌 Repository Structure**  
 ```bash
-📂 BITAmin-LLM
+📂 BITAmin-LMM
 │── 📂 Data/               # DB 파일 모음
 │── 📂 Experiment/         # 이미지 생성 성능 향상을 위한 실험 파일 모음
 │── 📂 Prototype/          # 검색 프로세스를 반영한 prototype
