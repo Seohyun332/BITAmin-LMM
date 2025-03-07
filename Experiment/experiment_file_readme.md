@@ -9,5 +9,10 @@
 ### donghyeop 
 - **exp_subquery_search.ipynb** : subquery와 full-text 검색 시 생성 성능 차이 비교 실험.
 
-### seohyun & jiyoung  
+### seohyun
 - **exp_weight_search.ipynb** : 이미지, 텍스트 가중치에 따른 검색 수행 시 생성 성능 실험.
+
+### jiyoung
+- **exp_query_image_feature_weight.ipynb** : 쿼리를 이미지 특징 따라 핵심 문장으로 분리해서 가중치를 둔 실험.
+
+- **exp_query_keyword_weight.ipynb** : 텍스트 쿼리의 핵심 키워드를 뽑아 가중치를 둔 실험.
